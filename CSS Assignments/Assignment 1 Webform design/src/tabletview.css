@@ -1,0 +1,77 @@
+@media (min-width:500px) and (max-width:991px)
+ {
+        
+        /* body{
+                background-color: rgb(202, 172, 172);
+        } */
+        
+        .mainhead{
+                display: block;
+        }
+        .contactinfo{
+                width: 100%; 
+        }
+ 
+        .namcl{
+                display: flex;
+        }
+       
+        .empcl{
+                display: flex;
+        }
+        .street11{
+                width: 100%;
+        }
+
+        .street2{
+                display: block;
+        }
+        .addreinfo{
+                width: 100%;
+        }
+     
+        .state{
+                width: 98%;
+        }
+        .post{
+                width: 98%;
+        }
+    .sgs{
+            width: 50%;
+    }
+    .secrow{
+            display: flex;
+    }
+    .product{
+            width: 100%;
+           
+    }
+    
+    .notes{
+            width: 100%;
+    }
+
+ /* button */
+
+.btn{
+  margin-top: 30px;      
+}
+ /* font styleing */
+ 
+ .mainhead{
+         font-size: 50px;
+         margin-bottom: 25px;
+ }
+.conthe{
+        margin-bottom: 10px;
+     
+}
+.contactinfo input{
+        width: 96%;
+}
+
+.addreinfo{
+        margin-top: 20px;
+}
+  
+}

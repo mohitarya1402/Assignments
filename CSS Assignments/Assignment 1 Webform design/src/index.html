@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+       <link rel="stylesheet" href="index.css">
+       <link rel="stylesheet" href="tabletview.css">
+       <link rel="stylesheet" href="mobile.css">
+        <title>Form 2 </title>
+</head>
+<body>
+        <div class="container-fluid con">
+                <div class="mainhead"> Request For Quote</div>
+                <form>
+                        <!-- First row  -->
+                        <div class="row ">
+                                        <div class="col-lg-4   contactinfo">
+                                           <div class="conthe display-4"> CONTACT INFORMATION</div>
+                                           <div class="namcl ">
+                                                <div class="col-md-6 col-lg-12 col-sm-12 col-12 ">
+                                                        <input type="text" placeholder="First name*" class="fname" pattern="[a-zA-Z]{3,10}" required>
+                                                </div>
+                                                <div class="col-md-6 col-lg-12 col-sm-12 col-12"> 
+                                                        <input type="text" placeholder="Last name*" class="lname"  pattern="[a-zA-Z]{3,10}" required>
+                                                </div>
+                                           </div>
+
+                                          <div class=" empcl">
+                                                <div class="col-md-6 col-lg-12 col-6 col-12">
+                                                        <input type="email" class="email" placeholder="Email*" pattern=".+@qualminds\.com|.+@gmail\.com" required>
+                                                </div>
+                                                <div class=" col-md-6 col-lg-12 col-12"> 
+                                                        <input type="text" class="phone" placeholder="Phone" pattern="[0-9]{10}" required>
+                                                </div> 
+                                           </div>     
+                                        </div>
+
+                                        <!--  Second Row-->
+                                        <div class="col-lg-8  col-sm-12 addreinfo">
+                                             <div class="adrhe display-4">ADDRESS</div>
+                                             <div class=" street11 col-12 col-sm-12 col-md-6 col-lg-12 col-sm-12 ">
+                                                     <input type="text" class="street1" placeholder="Street line 1*" required>
+                                             </div>  
+                                             <div class="street2 col-12">
+                                                <input type="text" class="street1" placeholder="Street line 2*" required>
+                                             </div> 
+                                             <div class="row"> 
+                                             <div class="col-12">
+                                                     <input type="text" class="city" placeholder="City*" required>
+                                             </div>
+                                             <div class="col-12">
+                                                     <input type="text" class="state" placeholder="State/Province*" required>
+                                             </div>
+                                             </div>
+                                             
+                                             <div class="row">
+                                                <div class="col-12">
+                                                        <input type="text" class="postal" placeholder="Postal/Zip code*" pattern="[0-9]{5}" required>
+                                                </div>
+                                                <div class="col-12">
+                                                        <label class="cntry">Country*</label>
+                                                        <select id="country"  class="post" name="country">
+                                                                <option class="sg">--Please Select--</option>
+                                                                <option>India</option>
+                                                                <option>USA</option>
+                                                                <option>UK</option>
+                                                                <option>Russia</option>
+                                                                <option>Ukrain</option>
+                                                                <option>Srilanka</option>
+                                                                <option>New zealand</option>
+                                                                <option>Japan</option>
+                                                        </select><br>
+                                                        
+                                                </div>
+                                           </div>
+                                        </div>
+                        </div>
+
+                        <!--3rd row -->
+
+                        <div class="row secrow"> 
+                                <div class="col-lg-6 col-md-6 col-12   product">
+                                        <div class="prohe display-4">PRODUCT</div>
+                                        <div class="row">
+                                                <div class="col-lg-7 col-md-7">
+                                                <input type="text" class="itemnm " placeholder="Item#1 name" required>
+                                                </div>
+                                                <div class="col-lg-5 col-md-5">
+                                                <input type="text" class="itemquan" placeholder="Item#1 quantity" pattern="[0-9]" required>
+                                                </div>
+                                        </div>
+                                        <div class="row">
+                                                <div class="col-lg-7 col-md-7 ">
+                                                        <input type="text" class="itemnm" placeholder="Item#2 name">
+                                                        </div>
+                                                        <div class="col-lg-5 col-md-5">
+                                                        <input type="text" class="itemquan" placeholder="Item#2 quantity" pattern="[0-9]" required>
+                                                        </div>
+                                        </div>
+                                        <div class="row">
+                                                <div class="col-lg-7 col-md-7">
+                                                        <input type="text" class="itemnm" placeholder="Item#3 name">
+                                                        </div>
+                                                        <div class="col-lg-5 col-md-5">
+                                                        <input type="text" class="itemquan" placeholder="Item#3 quantity" pattern="[0-9]" required>
+                                                        </div>
+                                        </div>
+                                </div>
+
+                                        <div class="col-6 notes">
+                                                <div class="ntshe display-4">NOTES</div>
+                                                <div class="col">
+                                                        <label class="cmt">Additional comments or questions</label>
+                                                        <textarea maxlength="200        "></textarea>
+                                                </div>
+                                        </div>
+                                </div>
+                        </div>
+
+                        <!-- Button -->
+                         <div class="btn">
+                                 <button class="btn-primary"> Request Quote</button>
+                         </div>
+
+                </form>
+        </div>
+</body>
+</html>

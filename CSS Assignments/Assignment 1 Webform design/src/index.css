@@ -1,0 +1,56 @@
+ 
+.mainhead{
+      
+        font-size: 50px;
+        margin-bottom: 25px;
+}
+input{
+        width: 98%;
+        margin: 10px;
+}
+select{
+        width: 98%;    
+        margin:10px;
+        height: 30px;
+        margin-top: 0;
+}
+
+.conthe, .adrhe, .prohe, .ntshe{
+        border-bottom: 1px solid gray;
+        border-width: 100%;
+        font-size: 30px;
+}
+.state{
+        width: 98%;
+}
+.post{
+        width: 98%;
+}
+.cntry{
+        margin-left: 10px;
+}
+
+/* 2nd row css*/
+
+.secrow{
+        margin-top: 30px;
+}
+textarea{
+        width:98% ;
+        height: 150px;
+      margin-left: 10px;
+        
+}
+
+.cmt{
+        margin: 5px;
+        font-weight: bold;
+}
+.itemquan{
+        width: 95%;
+}
+.street2{
+        display: none;
+}
+
+
