@@ -1,0 +1,55 @@
+@media only screen and (min-width: 800px)
+{
+.navbar
+{
+    display: flex;
+    padding: 10px;
+    border-bottom: 1px solid rgb(208, 201, 201);
+    width: 100%;
+}
+.headnav ul{
+    display: flex;
+    position: absolute;
+    top: 1%;
+    right: 5%;
+}
+.headhr{
+    margin-top: 1%;
+}
+.main{
+    text-align: center;
+    margin-top: 2%;
+}
+.mobile, .tab{
+    display: none;
+}
+.headp{
+    font-size: xx-large;
+    margin-bottom: 1%;
+}
+.card
+{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+
+}
+.column1, .column2, .column3{
+      width: 16%;
+      border: 1px solid silver;
+      margin: 1%;
+}
+   .footerhr{
+       width: 53%;
+       margin:3% 0 2% 23.5%;
+   }
+   .footer{
+       display: flex;
+       margin-left: 23.5%;
+       margin-top: 10px;
+   }
+   .column, .resource, .feature, .about{
+       width: 14%;
+    margin:0 7% 0 0;
+}
+}

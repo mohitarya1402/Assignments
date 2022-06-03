@@ -1,0 +1,44 @@
+@media only screen and (min-width: 577px) and (max-width:799px)
+{
+.navbar
+{
+    display: block;
+    margin: 1% 0 1% 2%;
+    text-align: center;
+    padding: 10px;
+    border-bottom: 1px solid rgb(208, 201, 201);
+    width: 100%;
+}
+.headnav .navul{
+    display: flex;
+    justify-content: center;
+}
+.headp, .tab{
+    text-align: center;
+    margin: 2% 0 1%;
+}
+.mobile, .deskp{
+    display: none;
+}
+.column1, .column2{
+    display: inline-block;
+    width: 45%;
+    text-align: center;
+}
+.column3{
+    width: 95%;
+    text-align: center;
+}
+   .columnul, .footerhr,.feature, .about{
+    margin: 2%;
+}
+.feature, .resource{
+    display: inline-block;
+}
+.feature, .resource, .about
+{
+    margin-top: 1%;
+    float: left;
+    width: 48%;
+}
+}

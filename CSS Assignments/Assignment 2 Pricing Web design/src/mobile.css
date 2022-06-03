@@ -1,0 +1,50 @@
+@media only screen and (max-width: 576px)
+{
+.navbar
+{
+    display: block;
+    margin: 1% 0 1% 2%;
+    text-align: center;
+    padding: 10px;
+    border-bottom: 1px solid rgb(208, 201, 201);
+    width: 100%;
+}
+.headnav .navul{
+    display: flex;
+    justify-content: center;
+}
+.main{
+    text-align: center;
+    margin-top: 2%;
+}
+.headp{
+    text-align: center;
+    font-size: xx-large;
+}
+.mobile{
+    text-align: center;
+    font-size: 90%;
+}
+.deskp, .tab{
+    display: none;
+}
+.card
+{
+    display: block;
+    text-align: center;
+    justify-content: center;
+    
+}
+.columnul, .footerhr,.feature, .about{
+    margin: 2%;
+}
+.feature, .resource{
+    display: inline-block;
+}
+.feature, .resource, .about
+{
+    margin-top: 1%;
+    float: left;
+    width: 48%;
+}
+}
