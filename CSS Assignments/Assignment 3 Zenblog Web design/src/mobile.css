@@ -1,0 +1,96 @@
+@media (max-width:500px)
+{
+        div{
+                /* border: 1px solid red; */
+        }
+        .sec-2{
+                width: 100%;
+                
+        }
+        .colhide{
+                display: none;
+        }
+        .navbar{
+                padding: 0px;
+        }
+        .hamhide{
+                display: block;
+        }
+
+        .brandnm{
+                font-size: 15px;
+                
+        }
+        
+        /* .icon{
+                list-style-type: none;
+                display:flex;
+                margin: 0.5px;
+                padding-left: 0;
+                margin-bottom: 0px;
+                margin-left:0px;
+            
+               
+        }
+        .icon li{
+            margin-left: 10px;
+        }
+        .fb{
+                width: 10px;
+                height: 10px;
+        }
+        .twt{
+                font-size: 12px;
+        }
+        .insta{
+                width: 10px;
+                height: 10px;
+        } */
+
+
+
+        .firstcol{
+                /* padding-right: 0px; */
+                border-right: 0px;
+                margin-right: 0px;
+                padding-right: 0px;
+                margin-left: 9px;
+                
+           }
+          .firstcol img{
+               width: 100%;
+               height: 225px;
+          }
+          .dogh{
+                  width: 100%;
+          }
+          .doghe{
+               font-family: sans-serif;
+               color: rgb(171, 172, 174);
+               font-weight: bold;
+               font-size: 12px;
+               
+          }
+          .dogpara1{
+               font-size: 31px;
+               font-weight: bold;
+               width: 100%;
+
+          }
+          .dogpara2{
+               color: rgb(171, 172, 174);
+                  width: 100%;
+          }
+          .dogpara3{
+               width: 100%;
+              margin-top: 18px;
+          }
+          .dogpara3 img{
+                  width: 40px;
+                  height: 40px;
+                  border-radius: 100%;
+          }
+          .dogpara3 span{
+                  margin-left: 10px;
+          }
+}

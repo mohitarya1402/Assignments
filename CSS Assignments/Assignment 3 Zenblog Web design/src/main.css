@@ -1,0 +1,179 @@
+body{
+        font-family: "Times New Roman", Times, serif;
+        overflow-x: hidden;
+}
+div{
+        /* border: 1px solid black; */
+}
+
+.sec-2{
+        /* border: 1px solid red; */
+        width: 81%;
+        margin: auto;
+        margin-top: 3%;
+}
+.navbar{
+        /* background-color: beige; */
+        padding: 20px;
+}
+
+.brandnm{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.menu{
+        list-style-type: none;
+        display:flex; 
+}
+.menu li{   
+        margin: 2.5px;
+        margin-left: 22px;
+        font-weight: 300;
+}
+
+
+     /* icon */
+.icon{
+        list-style-type: none;
+        display:flex;
+        margin: 1.5px;
+        padding-left: 0;
+        margin-bottom: 0px;
+        margin-left:40px;
+    
+       
+}
+.icon li{
+    margin-left: 20px;
+}
+.fb{
+        width: 20px;
+        height: 20px;
+}
+.twt{
+font-size:24px
+}
+.insta{
+        width: 20px;
+        height: 20px;
+}
+
+  .hamhide{
+          display: none;
+  }
+
+   /* section-2 */
+
+    .firstcol{
+         /* padding-right: 0px; */
+         border-right: 1px solid  rgb(171, 172, 174);
+         margin-right: 10px;
+         
+    }
+   .firstcol img{
+        width: 89%;
+        height: 225px;
+   } 
+   .dogh{
+           width: 93%;
+   }
+   .doghe{
+        font-family: sans-serif;
+        color: rgb(171, 172, 174);
+        font-weight: bold;
+        font-size: 12px;
+        
+   }
+   .dogpara1{
+    font-size: 33px;
+  
+    width: 93%;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Tiro Tamil', serif;
+
+   }
+   .dogpara2{
+        color: rgb(171, 172, 174);
+           width: 93%;
+   }
+   .dogpara3{
+        width: 93%;
+       margin-top: 18px;
+   }
+   .dogpara3 img{
+           width: 40px;
+           height: 40px;
+           border-radius: 100%;
+   }
+   .dogpara3 span{
+           margin-left: 10px;
+   }
+
+
+     /* column-2 */
+   .col2 p{
+        font-family: sans-serif;
+        color: rgb(171, 172, 174);
+        font-weight: bold;
+        font-size: 12px;
+   }
+   .col12{
+        border-right: 1px solid  rgb(171, 172, 174);   
+   }
+          
+   /* last coloumn */
+   .lastcol p{
+        color: rgb(171, 172, 174);
+   }
+
+.sec-2{
+        margin-bottom: 5%;
+}
+
+
+
+   /* footer */
+
+   .fotersocial{
+           float: right;
+           margin-right: 34px;
+           margin-top: 10px;
+           align-self: center;
+   }
+
+   .footer-legalinfo{
+           
+           background-color: black;
+   }
+   .ftsocial i{
+           padding: 10px;
+           border-radius: 50%;
+   }
+   .scroll-up{
+          margin-left: 106%;  
+   }
+   .fa-arrow-up{
+           padding: 5px;
+           border-radius: 0%;
+   } 
+   .recentpost img{
+       height: 100%;
+   }
+
+
+ @media (min-width:700px) and (max-width:900px)
+ {
+      .colhide{
+              margin-left: 130px;
+      }  
+      .tabicon{
+            visibility: hidden;
+      }  
+      .icon{
+              margin-left: 40%;
+      }
+ }
+
+
+
