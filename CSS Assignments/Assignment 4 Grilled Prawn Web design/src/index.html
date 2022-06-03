@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://kit.fontawesome.com/779cd477c8.js" crossorigin="anonymous"></script>
+        <link  rel="stylesheet" href="index.css">
+        <title>Grilled</title>
+</head>
+<body>
+        <nav>
+                <div class="header"> 
+                        <div class="logo">
+                                <div ><img  class="logoimg"  src="img/logo.png"><span>The Grilled Prawn</span></div>
+                        </div>
+                        <div class="menu">
+                                <ul class="menu_item">
+                                        <li>RECIPES</li>
+                                        <li>DRINKS</li>
+                                        <li>DECORATIONS</li>
+                                        <li>ABOUT THE GRILLED PRAWN</li>
+                                </ul>
+                        </div>
+                </div>
+        </nav>
+                <!-- section-1 -->
+
+                <section class="banner">
+                        <div class="banner_img">
+                                 <img src="img/food1.jpeg" alt="Image 1"> 
+                        </div> 
+                        <div class="banner_desc"> 
+                                <p class="bnrhead">LATEST RECIPES</p>
+                                <h2>Baked Polenta with Cheese and Mushrooms.</h2> 
+                                <p class="bnrpara">Polenta, goat cheese, italian sausage,and cremini
+                                   mushrooms. All together  this will make for preety
+                                   darn good side dish to a lovely salad. Go for it.
+                                </p>
+                                <button >Go to recipe<i class='fa fa-arrow-right'></i></button>
+                         </div>
+                   
+                </section>
+                
+                <!-- ------------------------------------------section -2 ------------------------------------->
+                <section class="recipes">
+                      <p class="h1">Our Recipes</p>
+                
+                            <div class="filter_menu">
+                                   <div class="filter1 filters"><p class="">Filter recipes by</p><i class="fa fa-minus" ></i></div>
+                                   <div class="filter2 filters">
+                                          <span>Sort by</span><button type="text">Newest first <i class="fa fa-angle-down" style="font-size:24px"></i></button></div>
+                                  <div class="filter3 filters"><span class="search"><i class="fa fa-search" for="search" style="font-size:18px"></i><input  type="search" id="search" placeholder="Search recipe"></span></div>
+                            </div>  
+                                   <div class="filter_items">   
+                                        <!-- -------------------------------------filter -1------------------------------------------------------- -->
+                                      <div class="filter_item">
+                                        <div class="borderdiv">     
+                                         <p class="filter_heading">Food type:</p>
+                                         <div class="field_grp">
+                                                 <input type="checkbox" id="appetisers" class="checkbox_field .rounded-checkbox ">
+                                                 <label for="appetisers" class="checkbox_label">Appetisers</label> 
+                                         </div>
+                                         <div class="field_grp">
+                                                <input type="checkbox" id="mains" class="checkbox_field">
+                                                <label for="mains" class="checkbox_label">Mains</label> 
+                                        </div>
+                                        <div class="field_grp">
+                                                <input type="checkbox" id="desserts" class="checkbox_field">
+                                                <label for="desserts" class="checkbox_label">Desserts</label> 
+                                        </div>
+                                        <div class="field_grp">
+                                                <input type="checkbox" id="special" class="checkbox_field">
+                                                <label for="special" class="checkbox_label">Special Occasions</label> 
+                                        </div>
+                                   </div>
+                                  </div> 
+                                   <!-- Filters -2 -->
+                                   <div class="filter_item ">
+                                        <p class="filter_heading">Nationality:</p>
+                                        <div class="field_grp">
+                                                <input type="checkbox" id="italian" class="checkbox_field">
+                                                <label for="italian" class="checkbox_label">Italian (34)</label> 
+                                        </div>
+                                        <div class="field_grp">                                                                                                         
+                                               <input type="checkbox" id="french" class="checkbox_field">
+                                               <label for="french" class="checkbox_label">French (30)</label> 
+                                       </div>
+                                       <div class="field_grp">
+                                               <input type="checkbox" id="spanish" class="checkbox_field">
+                                               <label for="spanish" class="checkbox_label">Spanish (22)</label> 
+                                       </div>
+                                       <div class="field_grp">
+                                               <input type="checkbox" id="Perunian" class="checkbox_field">
+                                               <label for="Perunian" class="checkbox_label">Perunian (3)</label> 
+                                       </div>
+                                 </div>
+                                  <!-- Filters-3 -->
+                                  <div class="filter_item ">
+                                   <div class="topgap">
+                                        <div class="field_grp">
+                                                <input type="checkbox" id="chinese" class="checkbox_field">
+                                                <label for="chinese" class="checkbox_label">Chinese (18)</label> 
+                                        </div>
+                                        <div class="field_grp">
+                                               <input type="checkbox" id="indian" class="checkbox_field">
+                                               <label for="indian" class="checkbox_label">Indian (18)</label> 
+                                       </div>
+                                       <div class="field_grp">
+                                               <input type="checkbox" id="thai" class="checkbox_field">
+                                               <label for="thai" class="checkbox_label">Thai (10)</label> 
+                                       </div>
+                                       <div class="field_grp">
+                                               <input type="checkbox" id="norwegian" class="checkbox_field">
+                                               <label for="norwegian" class="checkbox_label">Norwegian (4)</label> 
+                                       </div>
+                                      </div>  
+                                  </div>
+                                  <!-- Filters-4 -->
+                                  <div class="filter_item ">
+                                       <div class="topgap">   
+                                        <div class="field_grp">
+                                                <input type="checkbox" id="polish" class="checkbox_field">
+                                                <label for="polish" class="checkbox_label">Polish (2)</label> 
+                                        </div>
+                                        <div class="field_grp">
+                                               <input type="checkbox" id="danish" class="checkbox_field">
+                                               <label for="danish" class="checkbox_label">Danish (3)</label> 
+                                       </div>
+                                       <div class="field_grp">
+                                               <input type="checkbox" id="belgian" class="checkbox_field">
+                                               <label for="belgian" class="checkbox_label">Belgian (7)</label> 
+                                       </div>
+                                       <div class="field_grp">
+                                               <input type="checkbox" id="persian" class="checkbox_field">
+                                               <label for="persian" class="checkbox_label">Persian (13)</label> 
+                                       </div>
+                                  </div>
+                                </div>
+                           </div>
+                </section>
+
+                <!-- Section-3  card -->
+                <section class="card">
+                       <div class="row1"> 
+                        <div class="menu-img1">
+                                <div class="desc">
+                                <div class="side">
+                                <p>5TH MARCH 2016</p>
+                                <P class="cntrynam">THAI</P>
+                                </div>
+                                <p class="p1">Thai Yellow Curry Noodles with Shiitake Mushrooms</p>
+                                </div>
+                                <img src="img/card1.png" >
+                        </div>
+                        <div class="menu-img1">
+                                <div class="desc">
+                                <div class="side">
+                                <p>17TH MARCH 2016</p>
+                                <P class="cntrynam">ITALIAN</P>
+                                </div>
+                                <p class="p1">Cappellini with Cherry Tomatoes and Fresh Basil</p>
+                                </div>
+                                <img src="img/card2.png" >
+                        </div>
+                        <div class="menu-img1">
+                                <div class="desc">
+                                <div class="side">
+                                <p>4TH APRIL 2016</p>
+                                <P class="cntrynam">ITALIAN</P>
+                                </div>
+                                <p class="p1">Baked Turkey Sausage and Mascarpone Stuffed Shells</p>
+                                </div>
+                                <img src="img/card3.png" >
+                        </div>
+                        <div class="menu-img1">
+                                <div class="desc">
+                                <div class="side">
+                                <p>24TH MAY 2016</p>
+                                <P class="cntrynam">ITALIAN</P>
+                                </div>
+                                <p class="p1">Caramelised Apple and Herb Fiocchi</p>
+                                </div>
+                                <img src="img/card4.png">
+                        </div>
+                      </div>
+
+                      <div class="row2">
+                        <div class="menu-img1">
+                                <div class="desc">
+                                <div class="side">
+                                <p>25TH MAY 2016</p>
+                                <P class="cntrynam">SPANISH</P>
+                                </div>
+                                <p class="p1">Pumpkin Beer Cheese Soup</p>
+                                </div>
+                                <img src="img/card5.png">
+                        </div> 
+                        <div class="menu-img1">
+                                <div class="desc">
+                                <div class="side">
+                                <p>22TH SEPTEMBER 2016</p>
+                                <P class="cntrynam">THAI</P>
+                                </div>
+                                <p class="p1">Yum Woon Sen with Shrimp(Glass noodle salad with Shrimp)</p>
+                                </div>
+                                <img src="img/card6.png">
+                        </div>
+                        <div class="menu-img1">
+                                <div class="desc">
+                                <div class="side">
+                                <p>14TH OCTOBER 2016</p>
+                                <P class="cntrynam">THAI</P>
+                                </div>
+                                <p class="p1">Beef Satay</p>
+                                </div>
+                                <img src="img/card7.png">
+                        </div>
+                        <div class="menu-img1">
+                                <div class="desc">
+                                <div class="side">
+                                <p>29TH OCTOBER 2016</p>
+                                <P class="cntrynam">FRENCH</P>
+                                </div>
+                                <p class="p1">Creamy French Onion Soup Dip in a Bread Bowl</p>
+                                </div>
+                                <img src="img/card8.png">
+                        </div>
+                      </div>
+                      
+                      <div class="row3">
+                      <div class="menu-img1">
+                                <div class="desc">
+                                <div class="side">
+                                <p>11TH NOVEMBER 2016</p>
+                                <P class="cntrynam">SPANISH</P>
+                                </div>
+                                <p class="p1">Bocadilo Bites</p>
+                                </div>
+                                <img src="img/card3.png" >
+                        </div>
+                        <div class="menu-img1">
+                                <div class="desc">
+                                <div class="side">
+                                <p>12TH NOVEMBER 2016</p>
+                                <P class="cntrynam">SPANINSH</P>
+                                </div>
+                                <p class="p1">Paella</p>
+                                </div>
+                                <img src="img/card10.png">
+                        </div>
+                        <div class="menu-img1">
+                                <div class="desc">
+                                <div class="side">
+                                <p>24TH DECEMBER 2016</p>
+                                <P class="cntrynam">THAI</P>
+                                </div>
+                                <p class="p1">Spicy black Bean Burger</p>
+                                </div>
+                                <img src="img/card2.png">
+                        </div>
+                        <div class="menu-img1">
+                                <div class="desc">
+                                <div class="side">
+                                <p>9TH JANUARY 2017</p>
+                                <P class="cntrynam">TALIAN</P>
+                                </div>
+                                <p class="p1">Fresh Fig and Pistachio salad</p>
+                                </div>
+                                <img src="img/card1.png">
+                        </div> 
+                      </div>  
+                        <div class="menu-img1">
+                                <div class="rtrntop"><span>Return to the top</span> <i class="fa fa-angle-up" style="font-size:20px"></i></div>
+                        </div>
+                </section>
+
+
+   <!-- --------------------------------------------section-4 ------------------------------------------------>
+                <section class="contact">
+                          <p class="sprdword">Spread the word!</p>
+                          <p class="spwdesc">Our recipes are awesome, sign up to our newsletter and invite 
+                                  friends to join the Grilled Prawn cult
+                          </p>
+
+                          <div class="firstrow">
+                             <div class="inp1">
+                                <p>Name</p>
+                                <input type="text" class="name" placeholder="Stone">
+                             </div>
+                             <div class="inp1">
+                                <p>Surname</p>
+                                <input type="text" class="name" placeholder="Smith">
+                      
+                             </div>
+                             <div class="inp1">
+                                <p>Email address</p>
+                                <input type="email" class="name" placeholder="Mohit@gmail.com">
+                             </div>
+                             <div class="inp1 btn">
+                                <i class='fas fa-trash'></i> <p class="remove">Remove</p>
+                             </div>
+                          </div>
+                          
+                          <div class="secrow">
+                                <div class="inp1">
+                                        <p>Name</p>
+                                        <input  type="text" class="name" placeholder="George">
+                                     </div>
+                                     <div class="inp1">
+                                        <p>Surname</p>
+                                        <input type="text" class="surname" placeholder="Arya">
+                                     </div>
+                                     <div class="inp1">
+                                        <p>Email address</p>
+                                        <input  type="email" class="name" placeholder="jhon@gmail.com">
+                                     </div>
+                                     <div class="inp1 btn">
+                                        <button>Add Friend</button>
+                                     </div>
+                          </div>
+                          <button  type="submit" class="send">Send <i class='fas fa-arrow-right'></i></button>
+                </section>
+    
+<!-------------------------------------------------------- footer ------------------------------------------------------- -->
+                <footer> 
+                    <div class="ftr-col1">
+                            <div class="ftr-card1">
+                                <p class="ftr-head">Our Recipes</p>
+                                <p class="ftr-para1 ">All our recipe are tested thoroughly by us to make sure they're
+                                        suitable for your kitchen at home. We know many of you are concerned about
+                                        healthy eating, som we send them to a qualified nutritionist for thorough analysis too.
+                                </p>
+                            </div>
+                            <div class="ftr-card1">
+                                <p class="ftr-head">Grilled praw's History</p>
+                                <p class="ftr-para1">The Grilled Prawn is a fictional food blog
+                                         created in  january 2015
+                                </p>
+                            </div>
+                            <div class="ftr-card1">
+                                <p class="ftr-head">Tips and Tricks</p>
+                                <p class="ftr-para1">
+                                        Not sure how to do 
+                                        something? Don't panic.
+                                        We have plenty of tutorials for you.
+                                </p>
+                                <p class="lrnmore">Learn more</p>
+                            </div>
+                            <div class="ftr-card1">
+                                <p class="ftr-head">Help and Contact</p>
+                                <p class="ftr-para1">
+                                       Struggling with one of the recipes?
+                                </p>
+                                <p class="sendmail">Send us an email</p>
+
+                                <p class="helppara">
+                                        We are always happy to try new things, send us your suggestions!</p>
+                            </div>
+                    </div>
+                    <div class="ftr-col2">
+
+                        
+                            <p class="ftr-lastcol"><i class="fa fa-copyright" style="font-size:18px"></i>The Grilled Prawn</p>
+                            <p class="col">Lorem ipsum, dolor sit amet, consectetur adipisicing elit.
+                               Ex repellendus, aliquam nesciunt dolorum debitis repudiandae
+                               eos quam vero natus soluta reprehenderit excepturi modi cupiditate 
+                               voluptate vitae quo accusamus nobis suscipit.
+                            </p>
+                            <p class="ftr-lstcolpara">
+                                    The images and recipes ideas were taken from spoonforkbacon.com 
+                                    and the icons from Google Material
+                            </p>
+                    </div>
+                </footer>
+      
+</body>
+</html>
+
+
+
