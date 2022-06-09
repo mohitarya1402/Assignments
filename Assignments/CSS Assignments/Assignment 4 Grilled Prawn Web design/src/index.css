@@ -2,9 +2,9 @@
         margin: 0;
         padding: 0;
 }
-html{
+/* html{
         font-size: 16px;
-}
+} */
 body{
         font-family: 'Roboto', sans-serif;
         overflow-x: hidden;
@@ -54,6 +54,7 @@ nav{
 .menu_item li{
         margin-top:6%;
         margin-left: 50px;
+        cursor: pointer;
 }
 
 /* --------------------------banner design ---------------------*/
@@ -115,6 +116,7 @@ nav{
         padding: 5px;
         margin-right: 10px;
         background-color:  #F6F6F5;
+        cursor: pointer;
 }
 .banner_desc button i{
         margin-left: 10px;
@@ -284,9 +286,9 @@ nav{
         .menu-img1 .desc .side{
                 padding: 10px;
         }
-        .menu-img1 .desc .side .cntrynam{
+        /* .menu-img1 .desc .side .cntrynam{
            
-        }
+        } */
         .desc .p1{
         font-size: 30px;
         height: 5em;
@@ -356,6 +358,7 @@ nav{
         display: flex;
         align-items: center;
         margin-left: 55px;
+        cursor: pointer;
 }
 .contact .firstrow .btn i{
         margin-top: 22px;
@@ -400,6 +403,7 @@ border: 1.5px solid white;
 border-radius: 5px;
 color: white;
 padding: 10px;
+cursor: pointer;
 
 }
 /* button */
@@ -412,6 +416,7 @@ padding: 10px;
       margin-top: 25px;
       border: 1.5px solid white;
       border-radius: 1.5px;
+      cursor: pointer;
         }
 
 /* -------------------------------footer------------------------------ */
