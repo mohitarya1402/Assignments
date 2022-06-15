@@ -1,0 +1,75 @@
+@media screen and (max-width: 568px) {
+  .filters,
+  .innercontact,
+  .cards,
+  header,
+  footer {
+    padding: 0;
+    width: 100%;
+  }
+  .menu ul {
+    display: block;
+    justify-content: center;
+    text-align: center;
+  }
+  .banner {
+    display: block;
+  }
+  .banner .banner_image {
+    width: 100%;
+  }
+  .banner .banner_content {
+    width: 100%;
+    padding-left: 1rem;
+  }
+  .banner .banner_content > p {
+    padding-right: 1.2rem;
+  }
+  .filters {
+    display: block;
+  }
+  .filters_by {
+    width: 94%;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+    font-size: 2rem;
+    margin: auto;
+  }
+  .borderdiv {
+    border-right: none;
+  }
+  .filters .sort_search {
+    width: 100%;
+  }
+  .filter_item {
+    display: block;
+    font-size: 2rem;
+  }
+  .filter_items {
+    width: 100%;
+  }
+  .cards .card {
+    width: 100%;
+    padding: 0.5rem 0;
+  }
+.innercontact{
+  padding-left: 1rem;
+}
+.spread_para{
+  font-size: .1px;
+}
+.spread_para p{
+  font-size: 5px;
+  padding-right: 1rem;
+}
+  .inp1 {
+    width: 100%;
+    padding-bottom: 1rem;
+  }
+  .send_btn {
+    padding: 0rem;
+  }
+  .ftr-card1 {
+    width: 100%;
+  }
+}
