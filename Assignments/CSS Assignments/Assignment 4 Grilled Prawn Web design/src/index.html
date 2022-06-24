@@ -4,12 +4,15 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" -->
+        <!-- integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous"> -->
     <script
     src="https://kit.fontawesome.com/779cd477c8.js"
     crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/tablet.css" />
     <link rel="stylesheet" href="css/mobile.css" />
+    <script src="js/script.js" defer></script>
     <title>Document</title>
   </head>
   <body>
@@ -17,11 +20,13 @@
       <header>
         <div class="navbar">
           <div class="logo">
-            <img src="/img/logo.png" alt="the grilled prawn" />
-            <span>The Grilled Prawn</span>
+            <img src="/img/logo.png" alt="the grilled prawn"/>
+            <div>The Grilled Prawn</div>
           </div>
           <div class="menu">
-            <ul>
+            <div class="hamburger"><i class="fa fa-bars  ham"></i></div>
+            <!-- fa-times -->
+            <ul class="abd">
               <li><a href="#">RECIPES</a></li>
               <li><a href="#">DRINKS</a></li>
               <li><a href="#">DECORATION</a></li>
@@ -68,7 +73,7 @@
               <label for="desserts" class="checkbox_label">Desserts</label>
             </div>
             <div class="field_grp">
-              <input type="checkbox" id="special" class="checkbox_field" />
+            <input type="checkbox" id="special" class="checkbox_field" />
               <label for="special" class="checkbox_label">Special Occasions</label>
             </div>
           </div>
@@ -304,16 +309,24 @@
       <!------------------------------------spread the world----------------------------->
     <section class="contact">
       <div class="innercontact">
-       <div class="spread_head"> 
+      <div class="spread_head"> 
         <p>Spread the word!</p>
-       </div>
-       <div class="spread_para">
+      </div>
+      <div class="spread_para">
         <p class="spwdesc">
           Our recipes are awesome, sign up to our newsletter and invite friends to
           join the Grilled Prawn cult
         </p>
-       </div>
-        <div class="firstrow">
+      </div>
+
+    <div id="formsection">
+    </div>
+  
+    <div id="table"> </div>
+    
+    <!-- <div id="icon"></div>
+      <form action="">
+        <div class="secrow">
           <div class="inp1">
             <p>Name</p>
             <input type="text" class="name" placeholder="Stone" />
@@ -333,26 +346,8 @@
             </div>
           </div>
         </div>
-  
-        <div class="secrow">
-          <div class="inp1">
-            <p>Name</p>
-            <input type="text" class="name" placeholder="George" />
-          </div>
-          <div class="inp1">
-            <p>Surname</p>
-            <input type="text" class="surname" placeholder="Arya" />
-          </div>
-          <div class="inp1">
-            <p>Email address</p>
-            <input type="email" class="name" placeholder="jhon@gmail.com" />
-          </div>
-          <div class="inp1 btn">
-            <button class="add_friend cmnbtn">Add Friend</button>
-          </div>
-
-        </div>
-  
+      </form> -->
+      
         <div class="send_btn">
         <button type="submit" class="send"> Send <i class="fas fa-arrow-right"></i></button>
         </div>
@@ -409,7 +404,6 @@
           </p>
         </div>
         </div>
-
       </footer>
   </body>
 </html>
